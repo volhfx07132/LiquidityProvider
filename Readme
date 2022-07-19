@@ -1,0 +1,36 @@
+
+UniswapV2ERC20: 0x8a4855e5f6481C5e407e9C6dFBB80C547493f808
+Token0: 0x43994602326f11d356a1b95E3F1CF4Cb3C12A332
+Token1: 0xcC4FC7251a92B88510ffd8D891fBBdf00B1c0BbC
+
+UniswapV2Factory: 0x0323151714d23F5CbcB374a1968Ac948Bfa33128
+UniswapV2Pair: 0xE4a0C90A1508c088a12Dd20645fdba0B5D5E0b6f
+
+---->quote-----------
+
+amountA ===> reserveA
+amountB <=== reserveB
+
+---->getAmountOut-----------
+
+amountIn ===> reserveIn
+{amountOut} <=== reserveOut
+
+---->getAmountIn-----------
+
+{amountIn} <=== reserveIn
+amountOut ===> reserveOut
+-------------------------------------------------
+timestamp =         1658318828
+UniswapV2Factory:   0xFDAf86dF873a9d83DD8f1dD7Be318eCcbB25F6CA
+WETH:               0xde5F6F147bE98A2865B51F0f6061645838DBb964
+Token1:             0x064e3fd75f6A4f113dAa9A8152F5D8cF521AEBB1
+Token2:             0x0644701189d491da27Fb6e702E45d86Db6AfA680
+UniswapV2Router01:  0xAd245949311653dBeBb94d6C589fdddb606513b7
+ether               1000000000000000000  
+
+0x53a65e161f74bB612847d327cC4b15565549f150
+0x0000000000000000000000000000000000000000
+addLiquidity: 1 ==> apprpve user fot fair
+removeLiquidity 1 ===> approve user gair far in router02 smart contract
+swapTokensForExactTokens ===> approve user ==> approve for router smart contract
